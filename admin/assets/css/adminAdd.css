@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#user-form-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: darkred;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#user-form-admin input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#user-form-admin input:focus {
+    border-color: #007BFF;
+}
+
+#user-form-admin button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:darkred;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#user-form-admin button:hover {
+    background-color: green;
+}
